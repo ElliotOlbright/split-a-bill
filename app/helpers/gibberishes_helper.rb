@@ -1,0 +1,2 @@
+module GibberishesHelper
+end

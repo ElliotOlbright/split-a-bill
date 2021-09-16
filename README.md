@@ -1,0 +1,14 @@
+# Intro to JavaScript
+
+## Why JavaScript?
+* Reloading the page for functionality is not fun
+
+## Architecture / Rails Ecosystem
+
+## Event Handling
+
+## Fetch
+
+* fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data));

@@ -1,0 +1,2 @@
+class Gibberish < ApplicationRecord
+end
