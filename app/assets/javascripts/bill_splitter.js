@@ -15,13 +15,26 @@ split.addEventListener('click', function() {
   // take money owed and assign to each patron
   // query the dom first to find each of patron classes
   let patron1 = document.getElementById('patron_1')
-  patron1.value = moneyOwed
+  patron1.value = moneyOwed;
+  let patron2 = document.getElementById('patron_2')
+  patron2.value = moneyOwed;
+  let patron3 = document.getElementById('patron_3')
+  patron3.value = moneyOwed;
+  let patron4 = document.getElementById('patron_4')
+  patron4.value = moneyOwed;
 })
 
 // Feature 2 - Credit Card Roulette
 // As a user
 // When I click on Credit Card Roulette
-// Then I expect to see an alert message "__Fill_in_the_blank person has lost and is paying!"
+
+let squirrel = document.getElementsByClassName('cc_roulette')[0]
+// Then I expect to see an alert message "__Fill_in_the_blank person has lost and is
+let p_array = document.getElementsByClassName('patron')
+
+squirrel.addEventListener('click', function() {
+  alert(`${message} person has lost`);
+})
 // The person that pays is assigned randomly
 
 
